@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="h-pd">
+        <nav class="n-pd1">
+            <button><img src="/icn/MaterialSymbolsArrowBackIosNewRounded.png" id="arrow"></button>
+            <p>Pedido</p>
+            <button><img src="/icn/PhXBold (1).png" id="cruz"></button>
+        </nav>
+    </header>
+
+
+    <section class="s-pd1">
+       <div class="d-pd1">
+            <nav class="n-pd2">
+                <div class="d-pd2">
+                    <img src="/img/fried-rice-with-crispy-pork-and-vegetables-in-a-pan-png.png" alt="">
+                    <ul>
+                        <li><h1>Arroz</h1></li>
+                        <li><p>8€</p></li>
+                    </ul>
+
+                    <!--<div class="d-pd2-3">
+                        <p>
+                            8€
+                        </p>
+                     </div>
+-->
+                    <div class="d-pd2-1">
+                    
+                        <div class="d-pd2-2">
+                         <button onclick="restar(1)">-</button>
+                         <div id="result">1</div>
+                         <button onclick="sumar(1)">+</button>
+                        </div>
+                       
+     
+     
+                     </div>
+
+
+                     
+                </div>
+
+                <div class="d-pd3">
+                    <img src="/img/sobre-nosotros.png" alt="">
+                    <ul>
+                        <li><h1>Hamburguesa</h1></li>
+                        <li><p>10€</p></li>
+                    </ul>
+
+                  
+
+                <div class="d-pd3-1">
+                    
+                        <div class="d-pd3-2">
+                         <button onclick="restar1(1)">-</button>
+                         <div id="result1">1</div>
+                         <button onclick="sumar1(1)">+</button>
+                        </div>
+                       
+     
+     
+                     </div>
+                </div>
+
+                <div class="d-pd4">
+                    <img src="/img/nachos-8152413_960_720.png" alt="">
+                    <ul>
+                        <li><h1>Nachos</h1></li>
+                        <li><p>5€</p></li>
+                    </ul>
+
+      
+                    <div class="d-pd4-1">
+                    
+                        <div class="d-pd4-2">
+                         <button onclick="restar2(1)">-</button>
+                         <div id="result2">1</div>
+                         <button onclick="sumar2(1)">+</button>
+                        </div>
+                       
+     
+     
+                     </div>
+                </div>
+            </nav>
+
+
+            <article class="a-pd1">
+                <img src="/icn/GuidanceTickets (1).png" >
+                <input type="text" required  placeholder="Codigo de descuento">
+
+                <div>
+                    <p>
+                        Aplicar
+                    </p>
+                </div>
+            </article>
+
+            <footer class="f-pd1">
+
+               <article class="a-pd2">
+                    <div>
+                        <p class="p-pd1">Subtotal</p>
+                        <p>23€</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="p-pd2">Transporte</p>
+                        <p>2.5€</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="p-pd3">Total</p>
+                        <p>25.5€</p>
+                    </div>
+
+
+                    <div class="btn">
+                        Pagar
+                    </div>
+               </article>
+            </footer>
+       </div>
+    </section>
+
+
+
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
